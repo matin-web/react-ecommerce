@@ -1,3 +1,12 @@
-export default function Home() {
-  return <h1 className="text-2xl font-bold text-red-600">Home Page</h1>;
+ import React from "react"
+ import Header from "../Layout/Header"
+ 
+ function Home() {
+  return (
+    <>
+     <Header/>
+    </>
+  )
 }
+
+export default Home
