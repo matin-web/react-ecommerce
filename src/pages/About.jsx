@@ -1,0 +1,3 @@
+export default function About(params) {
+     return <h1 className="text-2xl font-bold text-red-600">About</h1>;
+}
